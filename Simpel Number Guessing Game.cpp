@@ -25,7 +25,7 @@ int main()
     SetConsoleTextAttribute(_color, 12);
     cout<<"Made By Samir Ahmed,"<<endl;
     SetConsoleTextAttribute(_color, 14);
-    cout<<"Here You Need To Guess A Nember."<<endl;
+    cout<<"Here You Need To Guess A Number."<<endl;
 
     SetConsoleTextAttribute(_color, 3);
     cout<<"If You Want To Edit Anything Then Type 'a', Else Type Anything: ";
@@ -86,7 +86,7 @@ int main()
         if(guess != _SECRET_NUM)
         {
             SetConsoleTextAttribute(_color, 4);
-            cout<<"Wornge! Try Again,"<<endl;
+            cout<<"Worng! Try Again,"<<endl;
         }
     }
 
